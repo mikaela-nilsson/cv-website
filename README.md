@@ -1,4 +1,4 @@
-# Mikaela's CV
+# CV website
 
 This is my personal CV website built with **Vue.js**, HTML, CSS, and JavaScript.  
 Designed to be simple but with a creative twist and supporting both English 🇬🇧 and Swedish 🇸🇪.
