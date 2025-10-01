@@ -14,7 +14,7 @@
             },
             {
                 "name": "Other Technical Skills:",
-                "details": "Git/GitHub, VSCode, MySQL, Microsoft Office Suite"
+                "details": "Git, GitHub, VSCode, MySQL, Microsoft Office Suite"
             }
         ],
         "experience": [
@@ -72,11 +72,11 @@
         },
         {
             "name": "Programmeringsspråk:",
-            "details": "SQL, Java, C#, Python, HTML, CSS, JavaScript"
+            "details": "SQL, T-SQL, Java, C#, C++, Python, HTML, CSS, JavaScript"
         },
         {
             "name": "Övriga Tekniska Färdigheter:",
-            "details": "Git/GitHub, VSCode, MySQL, Microsoft Office Suite"
+            "details": "Git, GitHub, VSCode, MySQL, Microsoft Office Suite"
         }
     ],
     "experience": [
