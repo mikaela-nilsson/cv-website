@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Mikaela's CV</title>
+</head>
+<body>
+    <div class="main" id="app">
+        <header>
+            <h1>Mikaela Nilsson</h1>
+            <div class="lang-container">
+                <span v-if="lang === 'en'">Language: </span>
+                <span v-else="lang === 'sv'">Språk: </span>
+                <button id="lang-btn" @click="toggleLang">
+                    <img id="en-icon" v-show="lang === 'en'" src="flag-for-flag-united-kingdom-svgrepo-com.svg" alt="Current language is English">
+                    <svg id="sv-icon" v-show="lang === 'sv'" width="32" height="32" viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" alt="Aktuell språk är svenska">
+                        <rect width="100" height="70" rx="8" fill="#0057B7"/>
+                        <rect x="32" width="15" height="70" fill="#FFD700"/>
+                        <rect y="26" width="100" height="15" fill="#FFD700"/>
+                    </svg>
+                </button>
+            </div>
+        </header>        
+
+            <div class="tabs">
+                <button v-for="tab in currentTabs"
+                    :key="tab"
+                    v-show="windowWidth > 1230 || active === tab.toLowerCase()"
+                    :class="['tab-btn', { active: active === tab.toLowerCase() }]"
+                    @click="activeTab(tab)">
+                    {{ tab }}    
+                </button>
+            </div>
+
+            <div class="folder-row">
+                <button class="arrow-btn" @click="nextTab(-1)">&#8592;</button>
+
+                <div class="folder-container">
+                    <div class="content">
+                            <div v-if="currentTabKey === 'summary'" class="folder">
+                                <h2 v-if="lang === 'en'" class="summary-text">Hi there !</h2>
+                                <h2 v-else="lang === 'sv" class="summary-text">Hejsan !</h2>
+                                <p class="summary-text">{{  currentContent.summary1 }}</p>
+                                <p class="summary-text">{{ currentContent.summary2 }}</p>
+                            </div>
+
+                            <div v-else-if="currentTabKey === 'skills'" class="folder">
+                                <ul>
+                                    <li v-for="skill in currentContent.skills" :key="skill.name">
+                                        <h2>{{ skill.name }}</h2>
+                                        <p>{{ skill.details }}</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div v-else-if="currentTabKey === 'experience'" class="folder">
+                                <ul>
+                                    <li v-for="job in currentContent.experience" :key="job.title">
+                                        <h2>{{ job.title }} <i style="color:rgb(86, 86, 86); margin-left: 8px;">({{ job.position }})</i></h2> 
+                                        <p>{{ job.date }}</p>
+                                        <p><i>{{  job.company }}</i></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div v-if="currentTabKey === 'education'" class="folder">
+                                <ul>
+                                    <li v-for="course in currentContent.education" :key="course.degree">
+                                        <h2>{{ course.degree }}</h2>
+                                        <p><i>{{ course.institution }}</i></p>
+                                        <p>{{ course.years }}</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div v-if="currentTabKey === 'contact'" class="folder">
+                                <p>
+                                    <a :href="'mailto:' + currentContent.contact" class="email-link">
+                                    <img class="icon" src="email_icon.png" alt="email">
+                                    {{ currentContent.contact }}
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="arrow-btn" @click="nextTab(1)">&#8594;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

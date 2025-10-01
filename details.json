@@ -1,0 +1,126 @@
+{
+    "en": {
+        "tabs": ["Summary", "Skills", "Experience", "Education", "Contact"],
+        "summary1": "I'm a university student in my final year with a passion for business administration, software development and nonstop learning. I thrive on embracing new challenges and adapting to all kinds of situations.",
+        "summary2": "Over the past few years, my interest in technology has grown alongside my skills in software development, UI/UX design, database design, and more. Complemented by my studies in economics and organizational theory, these skills fuel my ambition to create meaningful, innovative and user-focused solutions.",
+        "skills": [
+            {
+                "name": "Languages:",
+                "details": "English (Fluent), Filipino (Fluent), Swedish (Fluent), French (A2 level)"
+            },
+            {
+                "name": "Programming Languages:",
+                "details": "SQL, T-SQL, Java, C#, C++, Python, HTML, CSS, JavaScript"
+            },
+            {
+                "name": "Other Technical Skills:",
+                "details": "Git/GitHub, VSCode, MySQL, Microsoft Office Suite"
+            }
+        ],
+        "experience": [
+            {
+                "title": "Environmental Technician",
+                "position": "temporary worker",
+                "company": "Örebro Kommun",
+                "date": "2024 - Ongoing"
+            },
+            {
+                "title": "Receptionist",
+                "position": "temporary summer worker",
+                "company": "Region Örebro Län",
+                "date": "Summer 2023"    
+            },
+            {
+                "title": "Care Assistant",
+                "position": "temporary summer worker",
+                "company": "Elgströmska Huset, Örebro",
+                "date": "Summer 2022"
+            }
+        ],
+        "education": [
+                {
+                "degree": "Bachelor of Science in Information Systems",
+                "institution":"Örebro University",
+                "years": "2024 - 2026"
+                },
+                {
+                    "degree": "Introduction to Programming with Python (Online Course)",
+                    "institution": "University of Gävle",
+                    "years": "2025"
+                },
+                {
+                    "degree": "Cyber Security - fundamentals and awareness (Online Course)",
+                    "institution": "Linköping University",
+                    "years": "2025"
+                },
+                {
+                    "degree": "Bachelor of Economics",
+                    "institution": "Örebro University",
+                    "years": "2022 - 2025" 
+                }
+        ],
+        "contact": "mdjnilsson@gmail.com"
+},
+    "sv": {
+        "tabs": ["Om mig", "Färdigheter", "Erfarenhet", "Utbildning", "Kontakt"],
+        "summary1": "Jag är en universitetsstudent i mitt sista år med en passion för företagsekonomi, systemutveckling och oändligt lärande. Jag trivs med nya utmaningar och anpassar mig lätt till olika situationer.",
+        "summary2": "Under de senaste åren har mitt intresse för teknik vuxit, samtidigt som jag utvecklat mina färdigheter inom systemutveckling, UI/UX-design, databas design och mycket mer. I kombination med mina studier i ekonomi och organisationsteori driver dessa min ambition att skapa meningsfulla, innovativa och användarcentrerade lösningar.",
+        "skills": [
+        {
+            "name": "Språk:",
+            "details": "Engelska (Flytande), Filippinska (Flytande), Svenska (Flytande), Franska (A2 nivå)"
+        },
+        {
+            "name": "Programmeringsspråk:",
+            "details": "SQL, Java, C#, Python, HTML, CSS, JavaScript"
+        },
+        {
+            "name": "Övriga Tekniska Färdigheter:",
+            "details": "Git/GitHub, VSCode, MySQL, Microsoft Office Suite"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Miljötekniker",
+            "position": "timvikarie",
+            "company": "Örebro Kommun",
+            "date": "2024 - Pågående"
+        },
+        {
+            "title": "Medicinsk Vårdadministratör",
+            "position": "sommarvikarie",
+            "company": "Region Örebro Län",
+            "date": "Sommar 2023"    
+        },
+        {
+            "title": "Vårdbiträde",
+            "position": "sommarvikarie",
+            "company": "Elgströmska Huset, Örebro",
+            "date": "Sommar 2022"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Systemvetenskapliga programmet",
+            "institution":"Örebro Universitet",
+            "years": "2024 - 2026"
+        },
+        {
+            "degree": "Introduktion till programmering i Python (Onlinekurs)",
+            "institution": "Högskolan i Gävle",
+            "years": "2025"
+        },
+        {
+            "degree": "Cybersäkerhet - grunder och medvetenhet (Onlinekurs)",
+            "institution": "Linköping Universitet",
+            "years": "2025"
+        },
+        {
+            "degree": "Ekonomiprogrammet",
+            "institution": "Örebro Universitet",
+            "years": "2022 - 2025" 
+        }
+    ],
+    "contact": "mdjnilsson@gmail.com"
+    }
+}
