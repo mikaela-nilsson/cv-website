@@ -6,7 +6,6 @@ Designed to be simple but with a creative twist and supporting both English 🇬
 ## Features
 - Interactive tab navigation (Summary, Skills, Experience, Education, Contact)
 - Language toggle between English and Swedish
-- Responsive design for desktop and mobile
 - Dynamic content loaded from a JSON file
 
 ## Project Structure
