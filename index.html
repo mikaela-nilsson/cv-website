@@ -75,6 +75,23 @@
                                     </li>
                                 </ul>
                             </div>
+                            <div v-else-if="currentTabKey === 'projects'" class="folder">
+                                <ul>
+                                    <li v-for="project in currentContent.projects" :key="project.title">
+                                        <h2>{{ project.title }}</h2>
+                                        <p><i>{{ project.technologies }}</i></p>
+                                        <p>
+                                            <a :href="project.github"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="github-link">
+                                                <img class="icon" src="github_icon.png" alt="GitHub">
+                                                View on GitHub
+                                            </a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
                             <div v-if="currentTabKey === 'contact'" class="folder">
                                 <p>
                                     <a :href="'mailto:' + currentContent.contact" class="email-link">

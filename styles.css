@@ -7,7 +7,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #a9bcd0;
+    background-color: #ffffff;
     position: relative;
     left: 50%;
     right: 50%;
@@ -35,7 +35,7 @@ header {
     cursor: pointer;
     border: none;
     padding: 5px;
-    background-color: #a9bcd0;
+    background-color: #ffffff;
 }
 
 #en-icon, .icon {
@@ -129,11 +129,12 @@ h2.summary-text {
     border-bottom-left-radius: 15px;
 }
 
-.tab-btn:nth-child(1) { background: #fe2c2cc4; }
-.tab-btn:nth-child(2) { background: #faed63bd; }
-.tab-btn:nth-child(3) { background: #67fe35a9; }
-.tab-btn:nth-child(4) {background: #fea73cd3; }
-.tab-btn:nth-child(5) {background: #f956b0ac}
+.tab-btn:nth-child(1) { background: #fa7979c4; }
+.tab-btn:nth-child(2) { background: #faef75bd; }
+.tab-btn:nth-child(3) { background: #9bfa7ba9; }
+.tab-btn:nth-child(4) {background: #fac17cd3; }
+.tab-btn:nth-child(5) {background: #fa85c5ac}
+.tab-btn:nth-child(6) {background: #89c2fb}
 
 .email-link {
     display: flex;
@@ -149,6 +150,21 @@ h2.summary-text {
 
 .arrow-btn {
     display: none;
+}
+
+.github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    transition: opacity 0.2s ease;
+}
+
+.github-link:hover {
+    opacity: 0.7;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1230px) {

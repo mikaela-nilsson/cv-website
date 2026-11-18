@@ -4,7 +4,7 @@ const app = Vue.createApp({
             cv: {},
             active: 'summary',
             lang: 'en',
-            tabKeys: ['summary', 'skills', 'experience', 'education', 'contact'],
+            tabKeys: ['summary', 'skills', 'experience', 'education', 'projects', 'contact'],
             windowWidth: window.innerWidth
         };
     },

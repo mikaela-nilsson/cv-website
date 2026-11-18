@@ -1,8 +1,8 @@
 {
     "en": {
-        "tabs": ["Summary", "Skills", "Experience", "Education", "Contact"],
-        "summary1": "I'm a university student in my final year with a passion for business administration, software development and nonstop learning. I thrive on embracing new challenges and adapting to all kinds of situations.",
-        "summary2": "Over the past few years, my interest in technology has grown alongside my skills in software development, UI/UX design, database design, and more. Complemented by my studies in economics and organizational theory, these skills fuel my ambition to create meaningful, innovative and user-focused solutions.",
+        "tabs": ["Summary", "Skills", "Experience", "Education", "Projects", "Contact"],
+        "summary1": "I'm a graduate in Information Systems and Business Administration with a strong interest in software development, system testing and user experience.",
+        "summary2": "Through academic and personal projects, I've gained hands-on experience in C#/.NET, Java, SQL, JavaScript and web development. I've worked with everything from database design and backend functionality to responsive interfaces, authentication and application architecture. I enjoy understanding technical problem-solving as well as the people using the solutions.",
         "skills": [
             {
                 "name": "Languages:",
@@ -13,16 +13,22 @@
                 "details": "SQL, T-SQL, Java, C#, C++, Python, HTML, CSS, JavaScript"
             },
             {
-                "name": "Other Technical Skills:",
-                "details": "Git, GitHub, VSCode, MySQL, Microsoft Office Suite"
+                "name": "Development Concepts:",
+                "details": "Object-oriented programming, MVC, three-layer architecture, LINQ, authentication, responsive design"
             }
         ],
         "experience": [
             {
+                "title": "IT Specialist - Financial Support Systems",
+                "position": "full-time",
+                "company": "Region Örebro Län",
+                "date": "2026 - ongoing"
+            },
+            {
                 "title": "Environmental Technician",
                 "position": "temporary worker",
                 "company": "Örebro Kommun",
-                "date": "2024 - Ongoing"
+                "date": "2024 - 2025"
             },
             {
                 "title": "Receptionist",
@@ -38,33 +44,55 @@
             }
         ],
         "education": [
-                {
+            {
                 "degree": "Bachelor of Science in Information Systems",
                 "institution":"Örebro University",
                 "years": "2024 - 2026"
-                },
-                {
-                    "degree": "Introduction to Programming with Python (Online Course)",
-                    "institution": "University of Gävle",
-                    "years": "2025"
-                },
-                {
-                    "degree": "Cyber Security - fundamentals and awareness (Online Course)",
-                    "institution": "Linköping University",
-                    "years": "2025"
-                },
-                {
-                    "degree": "Bachelor of Economics",
-                    "institution": "Örebro University",
-                    "years": "2022 - 2025" 
-                }
+            },
+            {
+                "degree": "Computers and Programming in C++ (Online Course)",
+                "institution": "Kristianstad University",
+                "years": "2026"
+            },
+            {
+                "degree": "Introduction to Programming with Python (Online Course)",
+                "institution": "University of Gävle",
+                "years": "2025"
+            },
+            {
+                "degree": "Cyber Security - fundamentals and awareness (Online Course)",
+                "institution": "Linköping University",
+                "years": "2025"
+            },
+            {
+                "degree": "Bachelor of Economics",
+                "institution": "Örebro University",
+                "years": "2022 - 2025" 
+            }
+        ],
+        "projects": [
+            {
+                "title": "CV Management Web Application",
+                "technologies": "C#, ASP.NET MVC, SQL Server Express, ASP.NET Core Identity, HTML, CSS",
+                "github": "https://github.com/mikaela-nilsson/Grupp23CV"
+            },
+            {
+                "title": "Podcast Subscription Manager",
+                "technologies": "C#, Windows Forms, LINQ, XML, RSS",
+                "github": "https://github.com/mikaela-nilsson/PoddGrupp"
+            },
+            {
+                "title": "Project Management Application",
+                "technologies": "Java, MySQL, NetBeans, InfDB, RegEx",
+                "github": "https://github.com/shgor24/NGO2024"
+            }
         ],
         "contact": "mdjnilsson@gmail.com"
 },
     "sv": {
-        "tabs": ["Om mig", "Färdigheter", "Erfarenhet", "Utbildning", "Kontakt"],
-        "summary1": "Jag är en universitetsstudent i mitt sista år med en passion för företagsekonomi, systemutveckling och oändligt lärande. Jag trivs med nya utmaningar och anpassar mig lätt till olika situationer.",
-        "summary2": "Under de senaste åren har mitt intresse för teknik vuxit, samtidigt som jag utvecklat mina färdigheter inom systemutveckling, UI/UX-design, databas design och mycket mer. I kombination med mina studier i ekonomi och organisationsteori driver dessa min ambition att skapa meningsfulla, innovativa och användarcentrerade lösningar.",
+        "tabs": ["Om mig", "Färdigheter", "Erfarenhet", "Utbildning", "Projekt", "Kontakt"],
+        "summary1": "Jag är examinerad inom systemvetenskap och företagsekonomi och har ett stort intresse för systemutveckling, systemtestning och användarupplevelse.",
+        "summary2": "Genom akademiska och personliga projekt har jag fått praktisk erfarenhet av C#/.NET, Java, SQL, JavaScript och webbutveckling. Jag har arbetat med allt från databasutveckling och backendfunktionalitet till responsiva gränssnitt, autentisering och applikationsarkitektur. Jag drivs av att förstå teknisk problemlösning men även användarnas upplevelse av lösningarna.",
         "skills": [
         {
             "name": "Språk:",
@@ -75,16 +103,22 @@
             "details": "SQL, T-SQL, Java, C#, C++, Python, HTML, CSS, JavaScript"
         },
         {
-            "name": "Övriga Tekniska Färdigheter:",
-            "details": "Git, GitHub, VSCode, MySQL, Microsoft Office Suite"
+            "name": "Utvecklingskoncept:",
+            "details": "Objektorienterad programmering, MVC, trelagersarkitektur, LINQ, autentisering, responsiv design"
         }
     ],
     "experience": [
         {
+            "title": "IT-specialist - Ekonomisystem",
+            "position": "heltid",
+            "company": "Region Örebro Län",
+            "date": "2026 - pågående"
+        },
+        {
             "title": "Miljötekniker",
             "position": "timvikarie",
             "company": "Örebro Kommun",
-            "date": "2024 - Pågående"
+            "date": "2024 - 2025"
         },
         {
             "title": "Medicinsk Vårdadministratör",
@@ -106,6 +140,11 @@
             "years": "2024 - 2026"
         },
         {
+            "degree": "Datorer och programmering i C++ (Onlinekurs)",
+            "institution": "Högskolan Kristianstad",
+            "years": "2026"
+        },
+        {
             "degree": "Introduktion till programmering i Python (Onlinekurs)",
             "institution": "Högskolan i Gävle",
             "years": "2025"
@@ -119,6 +158,23 @@
             "degree": "Ekonomiprogrammet",
             "institution": "Örebro Universitet",
             "years": "2022 - 2025" 
+        }
+    ],
+    "projects": [
+        {
+            "title": "Webbapplikation för CV-hantering",
+            "technologies": "C#, ASP.NET MVC, SQL Server Express, ASP.NET Core Identity, HTML, CSS",
+            "github": "https://github.com/mikaela-nilsson/Grupp23CV"
+        },
+        {
+            "title": "Applikation för poddabonnemang",
+            "technologies": "C#, Windows Forms, LINQ, XML, RSS",
+            "github": "https://github.com/mikaela-nilsson/PoddGrupp"
+        },
+        {
+            "title": "Applikation för projektledning",
+            "technologies": "Java, MySQL, NetBeans, InfDB, RegEx",
+            "github": "https://github.com/shgor24/NGO2024"
         }
     ],
     "contact": "mdjnilsson@gmail.com"
